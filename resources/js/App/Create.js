@@ -51,7 +51,8 @@ class Create extends Component{
 
     render() {
         return (
-            <div className="justify-content-md-center col-md-8">
+            <div className="justify-content-md-center col-md-9">
+                <h3>Добавление фигуры</h3>
                 <select className="custom-select my-1 mr-sm-2" onChange={this.selectType} name="type_id" placeholder="Тип фигуры">
                     <option value="" disabled selected>Тип фигуры</option>
                     {this.arrayOfTypes()}

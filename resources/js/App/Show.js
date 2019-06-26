@@ -6,16 +6,16 @@ class Show extends Component{
 
     constructor(props){
         super(props);
-        this.state = {figures: [], types: [] };
-        //this.arrOfTypes = this.arrOfTypes.bind(this);
+        this.state = {figures: [], types: [], idForDelete: '' };
+        this.deleteSubmit = this.deleteSubmit.bind(this);
     }
 
     componentDidMount(){
         axios.get('/figures')
             .then(response => {
-                console.log(response.data);
-                this.setState({
-                    figures : response.data});
+                    this.setState({
+                        figures : response.data.reverse()
+                    });
             })
         axios.get('/types/getTypes')
             .then(response => {
@@ -25,14 +25,30 @@ class Show extends Component{
             })
     }
 
+    deleteSubmit(e) {
+        e.preventDefault();
+        let isRemoving = confirm("Удалить фигуру?");
+        if(isRemoving) {
+            let idForDelete = {};
+            idForDelete.id = e.target.attributes.getNamedItem('value').value;
+            axios.post('/figures/delete', idForDelete)
+                .then(
+                    location.reload
+                )
+            e.target.parentNode.parentNode.removeChild(e.target.parentNode);
+        }
+    }
+
+
     render() {
         return (
-            <div className="col-md-8 justify-content-md-center">
-                <h1 style={{paddingLeft: '40px'}}>Список фигур</h1>
+            <div className="col-md-9 justify-content-md-center">
+                <h3>Список фигур</h3>
                 <ul className="list-group" style={{overflowY: 'scroll', height: '600px', border: '2px solid #e9ecef', borderRadius: '4px'}}>
-                    {this.state.figures.map((figure, index) => (
-                        <li  className="list-group-item" key={index}> {this.state.types[figure.type_id - 1]} c площадью: { figure.square }
-                        </li>
+                    {
+                        this.state.figures.map((figure, index) => (
+                        <li  className="list-group-item" key={figure.id}> {this.state.types[figure.type_id - 1]} c площадью: { figure.square }
+                            <i className="fa fa-times" style={{float: 'right', color: 'red'}} aria-hidden="true" value={figure.id} onClick={this.deleteSubmit}></i> </li>
                     ))}
                 </ul>
             </div>

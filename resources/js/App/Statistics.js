@@ -33,9 +33,10 @@ class Statistics extends Component{
 
     render() {
         return (
-            <div className="col-md-8 justify-content-md-center">
+            <div className="col-md-9 justify-content-md-center">
+                <h3>Статистика</h3>
                 {this.state.typeList.map((type, index) => (
-                    <p  className="list-group-item" key={index}>{type} занимает {this.state.percents[index]} процентов от общей площади и составляет {this.state.figureSquare[index+1]}</p>
+                    <p  className="list-group-item" key={index}>{type} занимает <b style={{color: '#007bff'}}>{this.state.percents[index]}</b>  процентов от общей площади и составляет <b style={{color: '#007bff'}}>{this.state.figureSquare[index+1]}</b> </p>
                 ))}
             </div>
         )

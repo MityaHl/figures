@@ -15,6 +15,7 @@
 Route::get('/' , 'PageController@index');
 Route::get('/figures/showSquare', 'FiguresController@showSquare');
 Route::get('/figures/calcPercent', 'FiguresController@calcPercent');
+Route::post('/figures/delete', 'FiguresController@destroy');
 Route::get('/types/getTypes', 'TypesController@getTypes');
 Route::resource('/types', 'TypesController');
 Route::resource('/figures', 'FiguresController');

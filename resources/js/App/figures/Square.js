@@ -8,7 +8,9 @@ class Square extends Component {
         super(props);
         this.state = {
             type_id: props.type_id,
-            data: ''
+            data: '',
+            inputClass: null,
+            valid: true
         };
         this.handleSubmit = this.handleSubmit.bind(this);
         this.length = this.length.bind(this);
@@ -16,14 +18,34 @@ class Square extends Component {
 
     handleSubmit(e){
         e.preventDefault();
-        const products = {
-            type_id: this.state.type_id,
-            data: JSON.stringify(this.state.data)
+        if (this.state.data.length > 0) {
+            this.setState({
+                inputClass: 'is-valid'
+            });
+            const products = {
+                type_id: this.state.type_id,
+                data: JSON.stringify(this.state.data),
+                inputClass: null
+            }
+            let uri = '/figures';
+            axios.post(uri, products).then((response) => {
+                console.log('!!!');
+            });
+            this.changeValid();
+        }else {
+            this.setState({
+                inputClass: 'is-invalid'
+            });
+            if(this.state.valid) {
+                this.changeValid();
+            }
         }
-        let uri = '/figures';
-        axios.post(uri, products).then((response) => {
-            console.log('!!!');
-        });
+    }
+
+    changeValid() {
+        this.setState({
+            valid: !this.state.valid
+        })
     }
 
     length(e) {
@@ -35,6 +57,7 @@ class Square extends Component {
     }
 
     render() {
+        const mistake = !this.state.valid && <p className="invalid-feedback">Такого квадрата быть не может.</p>;
         return (
             <div>
                 <Form onSubmit={this.handleSubmit}>
@@ -42,7 +65,8 @@ class Square extends Component {
                         <img src="../../../images/square.png" alt=""/>
                         <br/>
                         <Form.Label> Длина стороны </Form.Label>
-                        <Form.Control type="number" onChange={this.length} name="length" />
+                        <Form.Control className={this.state.inputClass} type="number" onChange={this.length} name="length" />
+                        {mistake}
                     </Form.Group>
                     <Button variant="primary" type="submit">
                         Создать

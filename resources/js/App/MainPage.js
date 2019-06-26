@@ -8,7 +8,7 @@ class MainPage extends Component{
         return (
             <div className='container'>
                 <Header/>
-                <div className="row" style={{width: '1110px', margin: '0px'}}>
+                <div className="row" style={{ margin: '0px'}}>
                     <Menu/>
                     <PageInfo/>
                 </div>

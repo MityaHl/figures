@@ -80323,8 +80323,8 @@ function (_Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "justify-content-md-center col-md-8"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
+        className: "justify-content-md-center col-md-9"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "\u0414\u043E\u0431\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u0444\u0438\u0433\u0443\u0440\u044B"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("select", {
         className: "custom-select my-1 mr-sm-2",
         onChange: this.selectType,
         name: "type_id",
@@ -80394,7 +80394,7 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", {
         className: "col-md-12 jumbotron"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", {
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
         className: "page-header"
       }, "\u0424\u0438\u0433\u0443\u0440\u044B"));
     }
@@ -80570,18 +80570,14 @@ function (_Component) {
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
         className: "col-md-9 justify-content-md-center"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-        style: {
-          textAlign: "justify"
-        }
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        src: "../../images/foto53.jpg",
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "\u0413\u043B\u0430\u0432\u043D\u0430\u044F \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0430"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+        src: "../../images/main.jpeg",
         alt: "",
         style: {
           "float": 'left',
-          margin: "7px 7px 7px 0"
+          marginLeft: '80px'
         }
-      }), "\u0413\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u044F \u2013 \u044D\u0442\u043E \u0440\u0430\u0437\u0434\u0435\u043B \u043C\u0430\u0442\u0435\u043C\u0430\u0442\u0438\u043A\u0438, \u0432 \u043A\u043E\u0442\u043E\u0440\u043E\u043C \u0438\u0437\u0443\u0447\u0430\u044E\u0442\u0441\u044F \u0444\u043E\u0440\u043C\u044B \u0438 \u0438\u0445 \u0441\u0432\u043E\u0439\u0441\u0442\u0432\u0430. \u0413\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u044F, \u043A\u043E\u0442\u043E\u0440\u0430\u044F \u0438\u0437\u0443\u0447\u0430\u0435\u0442\u0441\u044F \u0432 \u0448\u043A\u043E\u043B\u0435, \u043D\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u0435\u0432\u043A\u043B\u0438\u0434\u043E\u0432\u043E\u0439, \u043F\u043E \u0438\u043C\u0435\u043D\u0438 \u0434\u0440\u0435\u0432\u043D\u0435\u0433\u0440\u0435\u0447\u0435\u0441\u043A\u043E\u0433\u043E \u0443\u0447\u0451\u043D\u043E\u0433\u043E \u0415\u0432\u043A\u043B\u0438\u0434\u0430 (III \u0432\u0435\u043A \u0434\u043E \u043D. \u044D.). \u0418\u0437\u0443\u0447\u0435\u043D\u0438\u0435 \u0433\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0438 \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442\u0441\u044F \u0441 \u043F\u043B\u0430\u043D\u0438\u043C\u0435\u0442\u0440\u0438\u0438. \u041F\u043B\u0430\u043D\u0438\u043C\u0435\u0442\u0440\u0438\u044F \u2013 \u044D\u0442\u043E \u0440\u0430\u0437\u0434\u0435\u043B \u0433\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0438, \u0432 \u043A\u043E\u0442\u043E\u0440\u043E\u043C \u0438\u0437\u0443\u0447\u0430\u044E\u0442\u0441\u044F \u0444\u0438\u0433\u0443\u0440\u044B, \u0432\u0441\u0435 \u0447\u0430\u0441\u0442\u0438 \u043A\u043E\u0442\u043E\u0440\u044B\u0445 \u043D\u0430\u0445\u043E\u0434\u044F\u0442\u0441\u044F \u0432 \u043E\u0434\u043D\u043E\u0439 \u043F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u0438. \u0413\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0444\u0438\u0433\u0443\u0440\u044B \u0412 \u043E\u043A\u0440\u0443\u0436\u0430\u044E\u0449\u0435\u043C \u043D\u0430\u0441 \u043C\u0438\u0440\u0435 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443\u0435\u0442 \u043C\u043D\u043E\u0436\u0435\u0441\u0442\u0432\u043E \u043C\u0430\u0442\u0435\u0440\u0438\u0430\u043B\u044C\u043D\u044B\u0445 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u043E\u0432 \u0440\u0430\u0437\u043D\u044B\u0445 \u0444\u043E\u0440\u043C \u0438 \u0440\u0430\u0437\u043C\u0435\u0440\u043E\u0432: \u0436\u0438\u043B\u044B\u0435 \u0434\u043E\u043C\u0430, \u0434\u0435\u0442\u0430\u043B\u0438 \u043C\u0430\u0448\u0438\u043D, \u043A\u043D\u0438\u0433\u0438, \u0443\u043A\u0440\u0430\u0448\u0435\u043D\u0438\u044F, \u0438\u0433\u0440\u0443\u0448\u043A\u0438 \u0438 \u0442. \u0434. \u0412 \u0433\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0438 \u0432\u043C\u0435\u0441\u0442\u043E \u0441\u043B\u043E\u0432\u0430 \u043F\u0440\u0435\u0434\u043C\u0435\u0442 \u0433\u043E\u0432\u043E\u0440\u044F\u0442 \u0433\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0444\u0438\u0433\u0443\u0440\u0430. \u0413\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0444\u0438\u0433\u0443\u0440\u0430 (\u0438\u043B\u0438 \u043A\u0440\u0430\u0442\u043A\u043E: \u0444\u0438\u0433\u0443\u0440\u0430) \u2013 \u044D\u0442\u043E \u043C\u044B\u0441\u043B\u0435\u043D\u043D\u044B\u0439 \u043E\u0431\u0440\u0430\u0437 \u0440\u0435\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u0430, \u0432 \u043A\u043E\u0442\u043E\u0440\u043E\u043C \u0441\u043E\u0445\u0440\u0430\u043D\u044F\u044E\u0442\u0441\u044F \u0442\u043E\u043B\u044C\u043A\u043E \u0444\u043E\u0440\u043C\u0430 \u0438 \u0440\u0430\u0437\u043C\u0435\u0440\u044B, \u0438 \u0442\u043E\u043B\u044C\u043A\u043E \u043E\u043D\u0438 \u043F\u0440\u0438\u043D\u0438\u043C\u0430\u044E\u0442\u0441\u044F \u0432\u043E \u0432\u043D\u0438\u043C\u0430\u043D\u0438\u0435. \u0413\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0444\u0438\u0433\u0443\u0440\u044B \u0440\u0430\u0437\u0434\u0435\u043B\u044F\u044E\u0442 \u043D\u0430 \u043F\u043B\u043E\u0441\u043A\u0438\u0435 \u0438 \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0435\u043D\u043D\u044B\u0435. \u0412 \u043F\u043B\u0430\u043D\u0438\u043C\u0435\u0442\u0440\u0438\u0438 \u0440\u0430\u0441\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u044E\u0442\u0441\u044F \u0442\u043E\u043B\u044C\u043A\u043E \u043F\u043B\u043E\u0441\u043A\u0438\u0435 \u0444\u0438\u0433\u0443\u0440\u044B. \u041F\u043B\u043E\u0441\u043A\u043E\u0439 \u0433\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u043E\u0439 \u0444\u0438\u0433\u0443\u0440\u043E\u0439 \u043D\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u0442\u0430\u043A\u0430\u044F, \u0432\u0441\u0435 \u0442\u043E\u0447\u043A\u0438 \u043A\u043E\u0442\u043E\u0440\u043E\u0439 \u043B\u0435\u0436\u0430\u0442 \u043D\u0430 \u043E\u0434\u043D\u043E\u0439 \u043F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u0438. \u041F\u0440\u0435\u0434\u0441\u0442\u0430\u0432\u043B\u0435\u043D\u0438\u0435 \u043E \u0442\u0430\u043A\u043E\u0439 \u0444\u0438\u0433\u0443\u0440\u0435 \u0434\u0430\u0451\u0442 \u043B\u044E\u0431\u043E\u0439 \u0440\u0438\u0441\u0443\u043D\u043E\u043A, \u0441\u0434\u0435\u043B\u0430\u043D\u043D\u044B\u0439 \u043D\u0430 \u043B\u0438\u0441\u0442\u0435 \u0431\u0443\u043C\u0430\u0433\u0438. \u0413\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0438\u0435 \u0444\u0438\u0433\u0443\u0440\u044B \u0431\u044B\u0432\u0430\u044E\u0442 \u0432\u0435\u0441\u044C\u043C\u0430 \u0440\u0430\u0437\u043D\u043E\u043E\u0431\u0440\u0430\u0437\u043D\u044B, \u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A, \u043A\u0432\u0430\u0434\u0440\u0430\u0442, \u043E\u043A\u0440\u0443\u0436\u043D\u043E\u0441\u0442\u044C \u0438 \u0434\u0440."), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "\u0422\u0440\u0435\u0443\u0433\u043E\u0301\u043B\u044C\u043D\u0438\u043A (\u0432 \u0435\u0432\u043A\u043B\u0438\u0434\u043E\u0432\u043E\u043C \u043F\u0440\u043E\u0441\u0442\u0440\u0430\u043D\u0441\u0442\u0432\u0435) \u2014 \u0433\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0430\u044F \u0444\u0438\u0433\u0443\u0440\u0430, \u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u043D\u043D\u0430\u044F \u0442\u0440\u0435\u043C\u044F \u043E\u0442\u0440\u0435\u0437\u043A\u0430\u043C\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u0441\u043E\u0435\u0434\u0438\u043D\u044F\u044E\u0442 \u0442\u0440\u0438 \u0442\u043E\u0447\u043A\u0438, \u043D\u0435 \u043B\u0435\u0436\u0430\u0449\u0438\u0435 \u043D\u0430 \u043E\u0434\u043D\u043E\u0439 \u043F\u0440\u044F\u043C\u043E\u0439. \u0423\u043A\u0430\u0437\u0430\u043D\u043D\u044B\u0435 \u0442\u0440\u0438 \u0442\u043E\u0447\u043A\u0438 \u043D\u0430\u0437\u044B\u0432\u0430\u044E\u0442\u0441\u044F \u0432\u0435\u0440\u0448\u0438\u043D\u0430\u043C\u0438 \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A\u0430, \u0430 \u043E\u0442\u0440\u0435\u0437\u043A\u0438 \u2014 \u0441\u0442\u043E\u0440\u043E\u043D\u0430\u043C\u0438 \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A\u0430. \u0427\u0430\u0441\u0442\u044C \u043F\u043B\u043E\u0441\u043A\u043E\u0441\u0442\u0438, \u043E\u0433\u0440\u0430\u043D\u0438\u0447\u0435\u043D\u043D\u0430\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430\u043C\u0438, \u043D\u0430\u0437\u044B\u0432\u0430\u0435\u0442\u0441\u044F \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u043E\u0441\u0442\u044C\u044E \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A\u0430: \u043D\u0435\u0440\u0435\u0434\u043A\u043E \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A \u0440\u0430\u0441\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u0435\u0442\u0441\u044F \u0432\u043C\u0435\u0441\u0442\u0435 \u0441\u043E \u0441\u0432\u043E\u0435\u0439 \u0432\u043D\u0443\u0442\u0440\u0435\u043D\u043D\u043E\u0441\u0442\u044C\u044E (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, \u0434\u043B\u044F \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0435\u043D\u0438\u044F \u043F\u043E\u043D\u044F\u0442\u0438\u044F \u043F\u043B\u043E\u0449\u0430\u0434\u0438)[1]. \u0421\u0442\u043E\u0440\u043E\u043D\u044B \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A\u0430 \u043E\u0431\u0440\u0430\u0437\u0443\u044E\u0442 \u0432 \u0432\u0435\u0440\u0448\u0438\u043D\u0430\u0445 \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A\u0430 \u0442\u0440\u0438 \u0443\u0433\u043B\u0430, \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A \u043C\u043E\u0436\u043D\u043E \u0442\u0430\u043A\u0436\u0435 \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0438\u0442\u044C \u043A\u0430\u043A \u043C\u043D\u043E\u0433\u043E\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A, \u0443 \u043A\u043E\u0442\u043E\u0440\u043E\u0433\u043E \u0438\u043C\u0435\u0435\u0442\u0441\u044F \u0440\u043E\u0432\u043D\u043E \u0442\u0440\u0438 \u0443\u0433\u043B\u0430[2]. \u0422\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F \u043E\u0434\u043D\u043E\u0439 \u0438\u0437 \u0432\u0430\u0436\u043D\u0435\u0439\u0448\u0438\u0445 \u0433\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0447\u0435\u0441\u043A\u0438\u0445 \u0444\u0438\u0433\u0443\u0440, \u043F\u043E\u0432\u0441\u0435\u043C\u0435\u0441\u0442\u043D\u043E \u0438\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0435\u043C\u044B\u0445 \u0432 \u043D\u0430\u0443\u043A\u0435 \u0438 \u0442\u0435\u0445\u043D\u0438\u043A\u0435, \u043F\u043E\u044D\u0442\u043E\u043C\u0443 \u0433\u043B\u0443\u0431\u043E\u043A\u043E\u0435 \u0438\u0441\u0441\u043B\u0435\u0434\u043E\u0432\u0430\u043D\u0438\u0435 \u0435\u0433\u043E \u0441\u0432\u043E\u0439\u0441\u0442\u0432 \u043F\u0440\u043E\u0432\u043E\u0434\u0438\u043B\u043E\u0441\u044C \u043D\u0430\u0447\u0438\u043D\u0430\u044F \u0441 \u0433\u043B\u0443\u0431\u043E\u043A\u043E\u0439 \u0434\u0440\u0435\u0432\u043D\u043E\u0441\u0442\u0438. \u041F\u043E\u043D\u044F\u0442\u0438\u0435 \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A\u0430 \u0434\u043E\u043F\u0443\u0441\u043A\u0430\u0435\u0442 \u0440\u0430\u0437\u043B\u0438\u0447\u043D\u044B\u0435 \u043E\u0431\u043E\u0431\u0449\u0435\u043D\u0438\u044F. \u041C\u043E\u0436\u043D\u043E \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0438\u0442\u044C \u044D\u0442\u043E \u043F\u043E\u043D\u044F\u0442\u0438\u0435 \u0432 \u043D\u0435\u0435\u0432\u043A\u043B\u0438\u0434\u043E\u0432\u043E\u0439 \u0433\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0438 (\u043D\u0430\u043F\u0440\u0438\u043C\u0435\u0440, \u043D\u0430 \u0441\u0444\u0435\u0440\u0435): \u043D\u0430 \u0442\u0430\u043A\u0438\u0445 \u043F\u043E\u0432\u0435\u0440\u0445\u043D\u043E\u0441\u0442\u044F\u0445 \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u044F\u0435\u0442\u0441\u044F \u043A\u0430\u043A \u0442\u0440\u0438 \u0442\u043E\u0447\u043A\u0438, \u0441\u043E\u0435\u0434\u0438\u043D\u0451\u043D\u043D\u044B\u0435 \u0433\u0435\u043E\u0434\u0435\u0437\u0438\u0447\u0435\u0441\u043A\u0438\u043C\u0438 \u043B\u0438\u043D\u0438\u044F\u043C\u0438. \u0412 n-\u043C\u0435\u0440\u043D\u043E\u0439 \u0433\u0435\u043E\u043C\u0435\u0442\u0440\u0438\u0438 \u0430\u043D\u0430\u043B\u043E\u0433\u043E\u043C \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A\u0430 \u044F\u0432\u043B\u044F\u0435\u0442\u0441\u044F n-\u0439 \u043C\u0435\u0440\u043D\u044B\u0439 \u0441\u0438\u043C\u043F\u043B\u0435\u043A\u0441. \u0418\u043D\u043E\u0433\u0434\u0430 \u0440\u0430\u0441\u0441\u043C\u0430\u0442\u0440\u0438\u0432\u0430\u044E\u0442 \u0432\u044B\u0440\u043E\u0436\u0434\u0435\u043D\u043D\u044B\u0439 \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A, \u0442\u0440\u0438 \u0432\u0435\u0440\u0448\u0438\u043D\u044B \u043A\u043E\u0442\u043E\u0440\u043E\u0433\u043E \u043B\u0435\u0436\u0430\u0442 \u043D\u0430 \u043E\u0434\u043D\u043E\u0439 \u043F\u0440\u044F\u043C\u043E\u0439. \u0415\u0441\u043B\u0438 \u043D\u0435 \u043E\u0433\u043E\u0432\u043E\u0440\u0435\u043D\u043E \u0438\u043D\u043E\u0435, \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A \u0432 \u0434\u0430\u043D\u043D\u043E\u0439 \u0441\u0442\u0430\u0442\u044C\u0435 \u043F\u0440\u0435\u0434\u043F\u043E\u043B\u0430\u0433\u0430\u0435\u0442\u0441\u044F \u043D\u0435\u0432\u044B\u0440\u043E\u0436\u0434\u0435\u043D\u043D\u044B\u043C."));
+      }));
     }
   }]);
 
@@ -80617,9 +80613,9 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
 
 function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
 
-function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
-
 function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
 
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
 
@@ -80642,9 +80638,10 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Show).call(this, props));
     _this.state = {
       figures: [],
-      types: []
-    }; //this.arrOfTypes = this.arrOfTypes.bind(this);
-
+      types: [],
+      idForDelete: ''
+    };
+    _this.deleteSubmit = _this.deleteSubmit.bind(_assertThisInitialized(_this));
     return _this;
   }
 
@@ -80654,10 +80651,8 @@ function (_Component) {
       var _this2 = this;
 
       axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/figures').then(function (response) {
-        console.log(response.data);
-
         _this2.setState({
-          figures: response.data
+          figures: response.data.reverse()
         });
       });
       axios__WEBPACK_IMPORTED_MODULE_2___default.a.get('/types/getTypes').then(function (response) {
@@ -80669,17 +80664,26 @@ function (_Component) {
       });
     }
   }, {
+    key: "deleteSubmit",
+    value: function deleteSubmit(e) {
+      e.preventDefault();
+      var isRemoving = confirm("Удалить фигуру?");
+
+      if (isRemoving) {
+        var idForDelete = {};
+        idForDelete.id = e.target.attributes.getNamedItem('value').value;
+        axios__WEBPACK_IMPORTED_MODULE_2___default.a.post('/figures/delete', idForDelete).then(location.reload);
+        e.target.parentNode.parentNode.removeChild(e.target.parentNode);
+      }
+    }
+  }, {
     key: "render",
     value: function render() {
       var _this3 = this;
 
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-8 justify-content-md-center"
-      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", {
-        style: {
-          paddingLeft: '40px'
-        }
-      }, "\u0421\u043F\u0438\u0441\u043E\u043A \u0444\u0438\u0433\u0443\u0440"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
+        className: "col-md-9 justify-content-md-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "\u0421\u043F\u0438\u0441\u043E\u043A \u0444\u0438\u0433\u0443\u0440"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("ul", {
         className: "list-group",
         style: {
           overflowY: 'scroll',
@@ -80690,8 +80694,17 @@ function (_Component) {
       }, this.state.figures.map(function (figure, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("li", {
           className: "list-group-item",
-          key: index
-        }, " ", _this3.state.types[figure.type_id - 1], " c \u043F\u043B\u043E\u0449\u0430\u0434\u044C\u044E: ", figure.square);
+          key: figure.id
+        }, " ", _this3.state.types[figure.type_id - 1], " c \u043F\u043B\u043E\u0449\u0430\u0434\u044C\u044E: ", figure.square, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("i", {
+          className: "fa fa-times",
+          style: {
+            "float": 'right',
+            color: 'red'
+          },
+          "aria-hidden": "true",
+          value: figure.id,
+          onClick: _this3.deleteSubmit
+        }), " ");
       })));
     }
   }]);
@@ -80793,12 +80806,20 @@ function (_Component) {
       var _this3 = this;
 
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: "col-md-8 justify-content-md-center"
-      }, this.state.typeList.map(function (type, index) {
+        className: "col-md-9 justify-content-md-center"
+      }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "\u0421\u0442\u0430\u0442\u0438\u0441\u0442\u0438\u043A\u0430"), this.state.typeList.map(function (type, index) {
         return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
-          className: "list-group-item mr-auto",
+          className: "list-group-item",
           key: index
-        }, type, " \u0437\u0430\u043D\u0438\u043C\u0430\u0435\u0442 ", _this3.state.percents[index], " \u043F\u0440\u043E\u0446\u0435\u043D\u0442\u043E\u0432 \u043E\u0442 \u043E\u0431\u0449\u0435\u0439 \u043F\u043B\u043E\u0449\u0430\u0434\u0438 \u0438 \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 ", _this3.state.figureSquare[index + 1]);
+        }, type, " \u0437\u0430\u043D\u0438\u043C\u0430\u0435\u0442 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+          style: {
+            color: '#007bff'
+          }
+        }, _this3.state.percents[index]), "  \u043F\u0440\u043E\u0446\u0435\u043D\u0442\u043E\u0432 \u043E\u0442 \u043E\u0431\u0449\u0435\u0439 \u043F\u043B\u043E\u0449\u0430\u0434\u0438 \u0438 \u0441\u043E\u0441\u0442\u0430\u0432\u043B\u044F\u0435\u0442 ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("b", {
+          style: {
+            color: '#007bff'
+          }
+        }, _this3.state.figureSquare[index + 1]), " ");
       }));
     }
   }]);
@@ -80859,10 +80880,13 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Circle).call(this, props));
     _this.state = {
       type_id: props.type_id,
-      data: {}
+      data: {},
+      inputClass: null,
+      valid: true
     };
     _this.handleSubmit = _this.handleSubmit.bind(_assertThisInitialized(_this));
     _this.radius = _this.radius.bind(_assertThisInitialized(_this));
+    _this.changeValid = _this.changeValid.bind(_assertThisInitialized(_this));
     return _this;
   }
 
@@ -80870,13 +80894,35 @@ function (_Component) {
     key: "handleSubmit",
     value: function handleSubmit(e) {
       e.preventDefault();
-      var products = {
-        type_id: this.state.type_id,
-        data: JSON.stringify(this.state.data)
-      };
-      var uri = '/figures';
-      axios.post(uri, products).then(function (response) {
-        console.log(products);
+
+      if (this.state.data.radius > 0) {
+        this.setState({
+          inputClass: 'is-valid'
+        });
+        var products = {
+          type_id: this.state.type_id,
+          data: JSON.stringify(this.state.data)
+        };
+        var uri = '/figures';
+        axios.post(uri, products).then(function (response) {
+          console.log(products);
+        });
+        this.changeValid();
+      } else {
+        this.setState({
+          inputClass: 'is-invalid'
+        });
+
+        if (this.state.valid) {
+          this.changeValid();
+        }
+      }
+    }
+  }, {
+    key: "changeValid",
+    value: function changeValid() {
+      this.setState({
+        valid: !this.state.valid
       });
     }
   }, {
@@ -80891,6 +80937,9 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
+      var mistake = !this.state.valid && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "invalid-feedback"
+      }, "\u0422\u0430\u043A\u043E\u0433\u043E \u043A\u0440\u0443\u0433\u0430 \u0431\u044B\u0442\u044C \u043D\u0435 \u043C\u043E\u0436\u0435\u0442.");
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"], {
         onSubmit: this.handleSubmit
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Group, {
@@ -80899,10 +80948,11 @@ function (_Component) {
         src: "../../../images/circle.png",
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Label, null, " \u0420\u0430\u0434\u0438\u0443\u0441 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Control, {
+        className: this.state.inputClass,
         type: "number",
         onChange: this.radius,
         name: "radius"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      }), mistake), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1___default.a, {
         variant: "primary",
         type: "submit"
       }, "\u0421\u043E\u0437\u0434\u0430\u0442\u044C")));
@@ -80965,9 +81015,12 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Rectangle).call(this, props));
     _this.state = {
       type_id: props.type_id,
-      data: {}
+      data: {},
+      inputClass: null,
+      valid: true
     };
     _this.handleSubmit = _this.handleSubmit.bind(_assertThisInitialized(_this));
+    _this.changeValid = _this.changeValid.bind(_assertThisInitialized(_this));
     _this.firstSide = _this.firstSide.bind(_assertThisInitialized(_this));
     _this.secondSide = _this.secondSide.bind(_assertThisInitialized(_this));
     return _this;
@@ -80977,13 +81030,36 @@ function (_Component) {
     key: "handleSubmit",
     value: function handleSubmit(e) {
       e.preventDefault();
-      var products = {
-        type_id: this.state.type_id,
-        data: JSON.stringify(this.state.data)
-      };
-      var uri = '/figures';
-      axios.post(uri, products).then(function (response) {
-        console.log('!!!');
+
+      if (this.state.data.secondSide > 0 && this.state.data.firstSide > 0) {
+        this.setState({
+          inputClass: 'is-valid'
+        });
+        var products = {
+          type_id: this.state.type_id,
+          data: JSON.stringify(this.state.data)
+        };
+        var uri = '/figures';
+        axios.post(uri, products).then(function (response) {});
+
+        if (!this.state.valid) {
+          this.changeValid();
+        }
+      } else {
+        this.setState({
+          inputClass: 'is-invalid'
+        });
+
+        if (this.state.valid) {
+          this.changeValid();
+        }
+      }
+    }
+  }, {
+    key: "changeValid",
+    value: function changeValid() {
+      this.setState({
+        valid: !this.state.valid
       });
     }
   }, {
@@ -81009,6 +81085,9 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
+      var mistake = !this.state.valid && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "invalid-feedback"
+      }, "\u0422\u0430\u043A\u043E\u0433\u043E \u043F\u0440\u044F\u043C\u043E\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A\u0430 \u0431\u044B\u0442\u044C \u043D\u0435 \u043C\u043E\u0436\u0435\u0442.");
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"], {
         onSubmit: this.handleSubmit
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -81017,16 +81096,18 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Group, {
         controlId: "firstSide"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Label, null, " \u041F\u0435\u0440\u0432\u0430\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Control, {
+        className: this.state.inputClass,
         type: "number",
         onChange: this.firstSide,
         name: "firstSide"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Group, {
         controlId: "secondSide"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Label, null, " \u0412\u0442\u043E\u0440\u0430\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Control, {
+        className: this.state.inputClass,
         type: "number",
         onChange: this.secondSide,
         name: "secondSide"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      }), mistake), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1___default.a, {
         variant: "primary",
         type: "submit"
       }, "\u0421\u043E\u0437\u0434\u0430\u0442\u044C")));
@@ -81089,7 +81170,9 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Square).call(this, props));
     _this.state = {
       type_id: props.type_id,
-      data: ''
+      data: '',
+      inputClass: null,
+      valid: true
     };
     _this.handleSubmit = _this.handleSubmit.bind(_assertThisInitialized(_this));
     _this.length = _this.length.bind(_assertThisInitialized(_this));
@@ -81100,13 +81183,36 @@ function (_Component) {
     key: "handleSubmit",
     value: function handleSubmit(e) {
       e.preventDefault();
-      var products = {
-        type_id: this.state.type_id,
-        data: JSON.stringify(this.state.data)
-      };
-      var uri = '/figures';
-      axios.post(uri, products).then(function (response) {
-        console.log('!!!');
+
+      if (this.state.data.length > 0) {
+        this.setState({
+          inputClass: 'is-valid'
+        });
+        var products = {
+          type_id: this.state.type_id,
+          data: JSON.stringify(this.state.data),
+          inputClass: null
+        };
+        var uri = '/figures';
+        axios.post(uri, products).then(function (response) {
+          console.log('!!!');
+        });
+        this.changeValid();
+      } else {
+        this.setState({
+          inputClass: 'is-invalid'
+        });
+
+        if (this.state.valid) {
+          this.changeValid();
+        }
+      }
+    }
+  }, {
+    key: "changeValid",
+    value: function changeValid() {
+      this.setState({
+        valid: !this.state.valid
       });
     }
   }, {
@@ -81121,6 +81227,9 @@ function (_Component) {
   }, {
     key: "render",
     value: function render() {
+      var mistake = !this.state.valid && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "invalid-feedback"
+      }, "\u0422\u0430\u043A\u043E\u0433\u043E \u043A\u0432\u0430\u0434\u0440\u0430\u0442\u0430 \u0431\u044B\u0442\u044C \u043D\u0435 \u043C\u043E\u0436\u0435\u0442.");
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"], {
         onSubmit: this.handleSubmit
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Group, {
@@ -81129,10 +81238,11 @@ function (_Component) {
         src: "../../../images/square.png",
         alt: ""
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Label, null, " \u0414\u043B\u0438\u043D\u0430 \u0441\u0442\u043E\u0440\u043E\u043D\u044B "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Control, {
+        className: this.state.inputClass,
         type: "number",
         onChange: this.length,
         name: "length"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      }), mistake), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1___default.a, {
         variant: "primary",
         type: "submit"
       }, "\u0421\u043E\u0437\u0434\u0430\u0442\u044C")));
@@ -81195,26 +81305,59 @@ function (_Component) {
     _this = _possibleConstructorReturn(this, _getPrototypeOf(Triangle).call(this, props));
     _this.state = {
       type_id: props.type_id,
-      data: {}
+      data: {},
+      inputClass: null,
+      valid: true
     };
     _this.handleSubmit = _this.handleSubmit.bind(_assertThisInitialized(_this));
     _this.firstSide = _this.firstSide.bind(_assertThisInitialized(_this));
     _this.secondSide = _this.secondSide.bind(_assertThisInitialized(_this));
     _this.thirdSide = _this.thirdSide.bind(_assertThisInitialized(_this));
+    _this.changeValid = _this.changeValid.bind(_assertThisInitialized(_this));
+    _this.failValidation = _this.failValidation.bind(_assertThisInitialized(_this));
     return _this;
   }
 
   _createClass(Triangle, [{
+    key: "failValidation",
+    value: function failValidation() {
+      this.setState({
+        inputClass: 'is-invalid'
+      });
+
+      if (this.state.valid) {
+        this.changeValid();
+      }
+    }
+  }, {
     key: "handleSubmit",
     value: function handleSubmit(e) {
       e.preventDefault();
-      var products = {
-        type_id: this.state.type_id,
-        data: JSON.stringify(this.state.data)
-      };
-      var uri = '/figures';
-      axios.post(uri, products).then(function (response) {
-        console.log('!!!');
+
+      if (this.state.data.secondSide > 0 && this.state.data.firstSide > 0 && this.state.data.thirdSide > 0) {
+        if (this.state.data.firstSide < this.state.data.secondSide + this.state.data.thirdSide && this.state.data.secondSide < this.state.data.firstSide + this.state.data.thirdSide && this.state.data.thirdSide < this.state.data.secondSide + this.state.data.firstSide) {
+          this.setState({
+            inputClass: 'is-valid'
+          });
+          var products = {
+            type_id: this.state.type_id,
+            data: JSON.stringify(this.state.data)
+          };
+          var uri = '/figures';
+          axios.post(uri, products).then(function (response) {});
+          this.changeValid();
+        } else {
+          this.failValidation();
+        }
+      } else {
+        this.failValidation();
+      }
+    }
+  }, {
+    key: "changeValid",
+    value: function changeValid() {
+      this.setState({
+        valid: !this.state.valid
       });
     }
   }, {
@@ -81251,8 +81394,18 @@ function (_Component) {
       });
     }
   }, {
+    key: "changeValid",
+    value: function changeValid() {
+      this.setState({
+        valid: !this.state.valid
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
+      var mistake = !this.state.valid && react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+        className: "invalid-feedback"
+      }, "\u0422\u0430\u043A\u043E\u0433\u043E \u0442\u0440\u0435\u0443\u0433\u043E\u043B\u044C\u043D\u0438\u043A\u0430 \u0431\u044B\u0442\u044C \u043D\u0435 \u043C\u043E\u0436\u0435\u0442.");
       return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"], {
         onSubmit: this.handleSubmit
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
@@ -81261,22 +81414,25 @@ function (_Component) {
       }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Group, {
         controlId: "firstSide"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Label, null, " \u041F\u0435\u0440\u0432\u0430\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Control, {
+        className: this.state.inputClass,
         type: "number",
         onChange: this.firstSide,
         name: "firstSide"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Group, {
         controlId: "secondSide"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Label, null, " \u0412\u0442\u043E\u0440\u0430\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Control, {
+        className: this.state.inputClass,
         type: "number",
         onChange: this.secondSide,
         name: "secondSide"
       })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Group, {
         controlId: "thirdSide"
       }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Label, null, " \u0422\u0440\u0435\u0442\u044C\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430 "), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap__WEBPACK_IMPORTED_MODULE_2__["Form"].Control, {
+        className: this.state.inputClass,
         type: "number",
         onChange: this.thirdSide,
         name: "thirdSide"
-      })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1___default.a, {
+      }), mistake), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_bootstrap_Button__WEBPACK_IMPORTED_MODULE_1___default.a, {
         variant: "primary",
         type: "submit"
       }, "\u0421\u043E\u0437\u0434\u0430\u0442\u044C")));

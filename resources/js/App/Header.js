@@ -4,7 +4,7 @@ class Header extends Component{
     render() {
         return (
             <header className="col-md-12 jumbotron">
-                <h3 className="page-header">Фигуры</h3>
+                <h1 className="page-header">Фигуры</h1>
             </header>
         )
     }

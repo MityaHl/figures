@@ -11,13 +11,19 @@ class FiguresController extends Controller
 
     public static function index()
     {
-        $figures = Figure::all();
+        $figures = Figure::orderBy('square')->get();
         return response()->json($figures);
     }
 
     public function create()
     {
         //
+    }
+
+    public function showFigure()
+    {
+        $figures = Figure::orderBy('square')->get();
+        return response()->json($figures);
     }
 
     public function store(Request $request)
@@ -54,6 +60,10 @@ class FiguresController extends Controller
             {
                 $figuresSquare[$figures[$i]->type_id] = $figures[$i]->square;
             }
+        }
+        for($i = 1; $i < count($figuresSquare) + 1; $i++)
+        {
+            $figuresSquare[$i] = round($figuresSquare[$i], 2);
         }
         return response()->json($figuresSquare);
     }
@@ -106,8 +116,9 @@ class FiguresController extends Controller
 
 
 
-    public function destroy($id)
+    public function destroy(Request $request)
     {
+        $id =$request->get('id');
         $figure = Figure::find($id);
         $figure->delete();
 
